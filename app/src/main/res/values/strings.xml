@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">TaxiUs</string>
+
+
+    <string name="login_activity_sign_up_btn_text"><u>New here? Sign Up</u></string>
+    <string name="login_activity_login_with_facebook_btn_text">Login with Facebook</string>
+    <string name="login_activity_login_with_google_btn_text">Login with Google</string>
+    <string name="login_activity_forgot_password_btn_text">Forgot password?</string>
+    <string name="login_activity_login_btn_text">Login</string>
+    <string name="login_activity_login_fail_msg">Login fails, try again</string>
+    <string name="login_activity_login_fail_with_google">Login fails with your Google account</string>
+    <string name="login_activity_login_in_porcess">Login in process...</string>
+
+
+    <string name="all_email_et_hint">Email</string>
+    <string name="all_password_et_hint">Password</string>
+    <string name="all_taxius_logo_description">TAXIUS LOGO</string>
+    <string name="all_invalid_email_error_msg">Email address is in invalid format</string>
+    <string name="all_password_error_msg">Password should be between %1$d and %2$d</string>
+    <string name="all_facebook_text">Facebook</string>
+    <string name="all_google_text">Google</string>
+    <string name="all_facebook_app_id">124815581508437</string>
+    <string name="all_network_error_msg">Check your network connection</string>
+    <string name="all_its_time_for_journey">It\'s time for journey</string>
+
+
+    <string name="sign_up_activity_name_et_hint">Name</string>
+    <string name="sign_up_activity_name_error_msg">Name should be between %1$d and %2$d</string>
+    <string name="sign_up_activity_sign_up_btn_text">Sign Up</string>
+    <string name="sign_up_activity_sign_up_title_tv_text">Sign up with TAXIUS</string>
+    <string name="sign_up_activity_sign_up_fail_error_msg">Signup fails, try again</string>
+    <string name="sign_up_activity_progress_msg">We are signing up your account</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+
+
+    <string name="title_activity_journey_search">JourneySearchActivity</string>
+    <string name="journey_search_activity_departure_et_hint">Where you want to be picked up?</string>
+    <string name="journey_search_activity_destination_et_hint">Where do you want to go?</string>
+    <string name="journey_search_activity_select_place_msg">Select both places</string>
+    <string name="journey_search_activity_journey_search_progress_msg">Searching for journey...</string>
+    <string name="journey_search_activity_fail_to_get_journey">Fail to get journey, try again</string>
+    <string name="journey_search_activity_nothing_to_show">No journey is found</string>
+    <string name="journey_search_activity_retry_btn_text">Retry</string>
+    <string name="journey_search_activity_recycler_view_title_time">Time</string>
+    <string name="journey_search_activity_recycler_view_title_location">Location</string>
+    <string name="journey_search_activity_recycler_view_title_distance">Distance</string>
+    <string name="journey_search_activity_no_google_service">Please install google service</string>
+
+
+    <string name="nav_menu_setting_text">Setting</string>
+    <string name="nav_menu_history_text">Journey history</string>
+    <string name="nav_menu_my_account_text">My account</string>
+    <string name="nav_menu_sign_out">Sign out</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <string name="journey_add_activity_departure_tv_title">Departure place</string>
+    <string name="journey_add_activity_destination_tv_title">Destination place</string>
+    <string name="journey_add_activity_departure_time_tv_title">Departure time</string>
+    <string name="journey_add_activity_create_journey_btn_text">Create a journey</string>
+    <string name="journey_add_activity_departure_time_tv_hint">Touch to select time</string>
+    <string name="journey_add_activity_title">Create your own journey</string>
+    <string name="journey_add_activity_departure_time_error_msg">Select departure time</string>
+    <string name="journey_add_activity_progress_msg">We are registering your journey...</string>
+    <string name="journey_add_activity_add_fail_message">Failed to add a journey, try again</string>
+    <string name="title_activity_journey_add">JourneyAddActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_journey_chat">JourneyChatActivity</string>
+    <string name="journey_chat_activity_send_btn_text">Send</string>
+    <string name="journey_chat_activity_chat_hint">Write a message</string>
+    <string name="journey_chat_activity_fail_to_create_chat_room_message">Fail to create chat room, check your network</string>
+    <string name="journey_chat_activity_fail_to_send_message_error_message">Fail to send a message, try again</string>
+    <string name="journey_chat_activity_fail_to_receive_message_error_message">Fail to receive a message</string>
+    <string name="journey_chat_activity_nav_departure_place">Departure place</string>
+    <string name="journey_chat_activity_nav_destination_place">Destination place</string>
+    <string name="journey_chat_activity_nav_cant_load_data">Can\'t load joined users, check your network</string>
+    <string name="journey_chat_activity_nav_exit_btn">Exit</string>
+    <string name="journey_chat_activity_nav_participants">Participants</string>
+    <string name="journey_chat_activity_nav_refresh_btn">Refresh</string>
+
+
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="setting_activity_distance_title">Distance Range</string>
+    <string name="setting_activity_current_range">Current range: </string>
+    <string name="setting_activity_save">Save</string>
+    <string name="setting_activity_meter">m</string>
+    <string name="setting_activity_saved_setting">Setting is saved</string>
+
+
+</resources>

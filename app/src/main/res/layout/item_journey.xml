@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:background="@drawable/shape_edit_text_border"
+    android:orientation="horizontal"
+    android:paddingBottom="1dp"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/item_journey_departure_time_tv"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="5dp"
+        android:background="@color/color_yellow"
+        android:gravity="center"
+        android:textColor="@color/color_light_brown" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp"
+        android:paddingRight="10dp"
+        android:paddingTop="15dp"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.68"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:src="@mipmap/ic_down_arrow" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/item_journey_departure_location_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/item_journey_destination_location_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.32"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape_list_location_button_border"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="3dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_departure_location" />
+
+                <TextView
+                    android:id="@+id/item_journey_departure_distance_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_list_location_button_border"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="3dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_flag" />
+
+                <TextView
+                    android:id="@+id/item_journey_destination_distance_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

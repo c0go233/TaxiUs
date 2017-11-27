@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group>
+        <item
+            android:id="@+id/nav_menu_my_account"
+            android:icon="@drawable/ic_my_account"
+            android:title="@string/nav_menu_my_account_text" />
+
+        <item
+            android:id="@+id/nav_menu_history"
+            android:icon="@drawable/ic_history"
+            android:title="@string/nav_menu_history_text" />
+
+        <item
+            android:id="@+id/nav_menu_setting"
+            android:icon="@drawable/ic_setting"
+            android:title="@string/nav_menu_setting_text" />
+
+        <item
+            android:id="@+id/nav_menu_sign_out"
+            android:icon="@drawable/ic_sign_out"
+            android:title="@string/nav_menu_sign_out" />
+    </group>
+
+</menu>

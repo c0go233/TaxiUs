@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.mad.taxius.signup.SignUpActivity"
+    tools:showIn="@layout/activity_sign_up">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_yellow"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/padding_30dp"
+        android:paddingLeft="@dimen/padding_30dp"
+        android:paddingRight="@dimen/padding_30dp">
+
+        <ImageView
+            android:layout_width="@dimen/logo_length_80dp"
+            android:layout_height="@dimen/logo_length_80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:contentDescription="@string/all_taxius_logo_description"
+            android:src="@mipmap/ic_taxius_logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up_activity_sign_up_title_tv_text"
+            android:textAlignment="center"
+            android:textColor="@color/color_dark_brown"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:id="@+id/sign_up_activity_general_error_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/error_padding_5dp"
+            android:orientation="horizontal"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:visibility="invisible">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ic_error_exclamation" />
+
+            <TextView
+                android:id="@+id/sign_up_activity_general_error_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_error_red"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/sign_up_activity_name_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_edit_text_border"
+            android:hint="@string/sign_up_activity_name_et_hint"
+            android:inputType="textPersonName|textCapWords"
+            android:padding="@dimen/input_box_padding_10dp" />
+
+        <TextView
+            android:id="@+id/sign_up_activity_name_error_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:textColor="@color/color_error_red" />
+
+        <EditText
+            android:id="@+id/sign_up_activity_email_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_edit_text_border"
+            android:hint="@string/all_email_et_hint"
+            android:inputType="textEmailAddress"
+            android:padding="@dimen/input_box_padding_10dp" />
+
+        <TextView
+            android:id="@+id/sign_up_activity_email_error_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:textColor="@color/color_error_red" />
+
+        <EditText
+            android:id="@+id/sign_up_activity_password_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_edit_text_border"
+            android:hint="@string/all_password_et_hint"
+            android:inputType="textPassword"
+            android:padding="@dimen/input_box_padding_10dp" />
+
+        <TextView
+            android:id="@+id/sign_up_activity_password_error_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:textColor="@color/color_error_red" />
+
+        <Button
+            android:id="@+id/sign_up_activity_sign_up_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:background="@color/color_dark_brown"
+            android:text="@string/sign_up_activity_sign_up_btn_text"
+            android:textColor="@color/color_white" />
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
