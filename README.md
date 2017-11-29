@@ -1,11 +1,11 @@
 # TaxiUs
 TaxiUs is an Android mobile application that connect people who want to use a taxi service and have the similar departure and destination locations so that they can share a taxi and hence their fares.
 
-# Functionality Overview
+# Major Functionality Overview
 - Logging in with Google account
 - Providing auto-complete address suggestions
 - Finding journeys created by other users within specified range of distance
-- Providing a chat room
+- Allowing users who have similar departure and destination locations to talk to each other in a chatroom
 
 # Application architecture overview
 - The overal architecture of the application is based on **MVP design pattern**
