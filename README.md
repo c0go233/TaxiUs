@@ -3,6 +3,7 @@ TaxiUs is an Android mobile application that connect people who want to use a ta
 
 # Major Functionality Overview
 - Logging in with Google account
+- Creating new account
 - Providing auto-complete address suggestions
 - Finding journeys created by other users within specified range of distance
 - Allowing users who have similar departure and destination locations to talk to each other in a chatroom
