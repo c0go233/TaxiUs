@@ -19,7 +19,6 @@
     <string name="all_password_error_msg">Password should be between %1$d and %2$d</string>
     <string name="all_facebook_text">Facebook</string>
     <string name="all_google_text">Google</string>
-    <string name="all_facebook_app_id">124815581508437</string>
     <string name="all_network_error_msg">Check your network connection</string>
     <string name="all_its_time_for_journey">It\'s time for journey</string>
 
